@@ -329,7 +329,19 @@
     --font-heading1-size: 32px;
     --font-heading1-line-height: 40px;
     --font-heading1-letter-spacing: 0.15px;
-  
+
+    --font-heading2-family: "Roboto";
+    --font-heading2-weight: 700;
+    --font-heading2-size: 30px;
+    --font-heading2-line-height: 40px;
+    --font-heading2-letter-spacing: 0.15px;
+
+    --font-heading3-family: "Roboto";
+    --font-heading3-weight: 700;
+    --font-heading3-size: 28px;
+    --font-heading3-line-height: 40px;
+    --font-heading3-letter-spacing: 0.15px;
+
     --font-body1-family: "Roboto";
     --font-body1-weight: 400;
     --font-body1-size: 16px;
@@ -453,6 +465,18 @@
     --font-heading1-line-height: 40px;
     --font-heading1-letter-spacing: 0.15px;
 
+    --font-heading2-family: "Roboto";
+    --font-heading2-weight: 700;
+    --font-heading2-size: 30px;
+    --font-heading2-line-height: 40px;
+    --font-heading2-letter-spacing: 0.15px;
+
+    --font-heading3-family: "Roboto";
+    --font-heading3-weight: 700;
+    --font-heading3-size: 28px;
+    --font-heading3-line-height: 40px;
+    --font-heading3-letter-spacing: 0.15px;
+
     --font-body1-family: "Roboto";
     --font-body1-weight: 400;
     --font-body1-size: 16px;
@@ -492,6 +516,14 @@
     line-height: var(--font-heading1-line-height);
     letter-spacing: var(--font-heading1-letter-spacing);
     margin-bottom: var(--spacing-medium);
+  }
+
+  h3 {
+    font-family: var(--font-heading1-family);
+    font-weight: var(--font-heading1-weight);
+    font-size: var(--font-heading3-size);
+    line-height: var(--font-heading1-line-height);
+    letter-spacing: var(--font-heading1-letter-spacing);
   }
   
   button {
@@ -802,6 +834,34 @@
 .bbt-color-blue-900 {
     background-color: var(--bbt-color-blue-900);
     color: var(--bbt-color-base-black);
+    border: 1px solid var(--colors-border-border-brand);
+    border-radius: var(--radius-medium);
+    padding: var(--spacing-medium);
+    font-family: var(--font-body1-family);
+    font-weight: var(--font-body1-weight);
+    font-size: var(--font-body1-size);
+    line-height: var(--font-body1-line-height);
+    letter-spacing: var(--font-body1-letter-spacing);
+    margin-bottom: var(--spacing-medium);
+}
+
+.colors-background-bg-brand-primary {
+    background-color: var(--colors-background-bg-brand-primary);
+    color: var(--colors-text-text-primary);
+    border: 1px solid var(--colors-border-border-brand);
+    border-radius: var(--radius-medium);
+    padding: var(--spacing-medium);
+    font-family: var(--font-body1-family);
+    font-weight: var(--font-body1-weight);
+    font-size: var(--font-body1-size);
+    line-height: var(--font-body1-line-height);
+    letter-spacing: var(--font-body1-letter-spacing);
+    margin-bottom: var(--spacing-medium);
+}
+
+.colors-background-bg-primary {
+    background-color: var(--colors-background-bg-primary);
+    color: var(--colors-text-text-primary);
     border: 1px solid var(--colors-border-border-brand);
     border-radius: var(--radius-medium);
     padding: var(--spacing-medium);
