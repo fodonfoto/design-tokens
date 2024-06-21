@@ -1,4 +1,5 @@
 :root {
+    /* primitive */
     --bbt-color-base-black: #0c0e0c;
     --bbt-color-base-white: #ffffff;
     --bbt-color-blue-100: #e6f5fe;
@@ -487,7 +488,7 @@
     --spacing-medium: 16px;
     --radius-medium: 8px;
   }
-  
+  /* use case */
   body {
     background-color: var(--colors-background-bg-primary);
     color: var(--colors-text-text-primary);
@@ -506,7 +507,7 @@
     top: 0;
     background-color: var(--colors-background-bg-primary);
     padding: var(--spacing-medium);
-    z-index: 1000; /* ให้แน่ใจว่า sticky section อยู่ด้านบนสุด */
+    z-index: 1000;
   }
   
   h1 {
